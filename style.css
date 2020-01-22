@@ -68,8 +68,12 @@ small {
 }
 
 .main-header{
-    background-color: #333;
+    background-color: rgba(51,51,51, .9);
     padding: 30px 0;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    width: 100%;
 }
 
 .logo {
@@ -129,6 +133,10 @@ nav ul li a {
 .intro-section header {
     position: relative;
     line-height: 0;
+}
+
+.intro-section {
+    margin-top: 110px;
 }
 
 .tagline {
